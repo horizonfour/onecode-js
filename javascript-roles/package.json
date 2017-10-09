@@ -1,0 +1,16 @@
+{
+  "name": "javascript-roles",
+  "version": "1.0.0",
+  "description": "regras para códigos javascript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "erickwendel",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
