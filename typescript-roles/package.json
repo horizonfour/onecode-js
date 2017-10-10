@@ -1,0 +1,19 @@
+{
+  "name": "typescript-roles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon lib/CodeTest.js",
+    "test": "nodemon --exec mocha lib/*.test.js"
+  },
+  "author": "erickwendel",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.33",
+    "tslint-config-airbnb": "^5.3.0",
+    "typescript": "^2.5.3"
+  }
+}
