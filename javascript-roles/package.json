@@ -4,13 +4,20 @@
   "description": "regras para códigos javascript ",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "dev": "nodemon src/index.js",
+    "test": "nodemon --exec mocha src/*.test.js"
   },
   "author": "erickwendel",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "fluent-validator": "^1.1.0",
+    "winston-color": "^1.0.0"
   }
 }
