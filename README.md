@@ -36,6 +36,7 @@ Para que você possa iniciar o desenvolvimento, verifique se você possui todas 
 
 | Ferramenta | Link |
 | ------ | ------ |
+| Docker | [Link](https://www.docker.com/) |
 | GitFlow | [Link](https://github.com/nvie/gitflow/wiki/Installation) |
 | GitCrypt | [Link](https://github.com/AGWA/git-crypt) |
 | TSLint | [Link](https://palantir.github.io/tslint/) |
